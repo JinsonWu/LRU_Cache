@@ -234,14 +234,14 @@ int main(int argc, char *argv[]){
     ull total_miss = r_miss + w_miss;
     double total_miss_per = 100*(double)total_miss / (double)(target_cache.r_acc + target_cache.w_acc);
 
-    /*cout << "total miss: " << total_miss << endl 
+    cout << "total miss: " << total_miss << endl 
         << "total miss percentage: " << total_miss_per << "%" << endl
         << "read miss: " << r_miss << endl
         << "read miss percentage: " << r_miss_per << "%" << endl
         << "write miss: " << w_miss << endl
-        << "write miss percentage: " << w_miss_per << "%" << endl;*/
+        << "write miss percentage: " << w_miss_per << "%" << endl;
 
-    cout << total_miss << " " << total_miss_per << "% " << r_miss << " " << r_miss_per << "% " << w_miss << " " << w_miss_per << "%" << endl;
+    //cout << total_miss << " " << total_miss_per << "% " << r_miss << " " << r_miss_per << "% " << w_miss << " " << w_miss_per << "%" << endl;
 }
 
 
